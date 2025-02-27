@@ -1,0 +1,42 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+out/
+build/
+*.js
+*.js.map
+*.d.ts
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+*.lcov
+
+# Optional: Ignore package-lock.json if using Yarn
+# package-lock.json
